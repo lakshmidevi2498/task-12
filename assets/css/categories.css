@@ -1,0 +1,80 @@
+h1 {
+    color: green;
+}
+
+.container {
+    display: block;
+  
+}
+.magnifier{
+    position: fixed;
+    left: 40%;
+    top: 60px;
+    width: 610px;
+    height: 500px;  
+  
+}
+
+.details{
+    
+    margin-left: 55px;
+    bottom: 70%;
+  
+}
+
+@media only screen and (max-width:1025px) {
+   .MagnifierImage{
+       width: 100%;
+     
+   }
+
+
+   #mianImg{
+     
+        width: 50vmin;
+     
+   }
+
+   .details {
+       justify-content: start;
+       margin-left: 130px;
+   }
+
+   #products {
+       width: 45%;
+   }
+
+}
+@media only screen and (max-width:787px) {
+
+    .footer {
+      max-width: 100%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 30px;
+  
+    }
+  }
+@media only screen and (max-width:426px) {
+   .details{
+           
+           margin-left: 0px;
+           bottom: 0%;
+         
+   }
+   #products {
+       width: 30%;
+   }
+   .magnifier{
+       display: none;
+   }
+   .footer {
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+
+  }
+}
